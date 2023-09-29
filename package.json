@@ -4,7 +4,8 @@
   "description": "This directory is a brief example of a [Jekyll](https://jekyllrb.com/) site that can be deployed to Vercel with zero configuration.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tinacms dev -c \"bundle exec jekyll serve\"",
+    "build": "tinacms build && jekyll build"
   },
   "keywords": [],
   "author": "",
